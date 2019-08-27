@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/finance"
+        android:paddingTop="4dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:text="@string/mission"
+            android:textSize="@dimen/size_text_button_small"
+            android:background="@color/white"
+            android:id="@+id/miss_employee"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Employee"
+            android:textSize="@dimen/size_text"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:id="@+id/empolyee"
+            />
+
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line"
+        android:layout_below="@+id/finance"
+        android:id="@+id/image_finance"
+        />
+    </LinearLayout>

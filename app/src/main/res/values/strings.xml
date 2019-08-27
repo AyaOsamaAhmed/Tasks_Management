@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="logo">إداره المهام</string>
+    <string name="main">الفروع</string>
+    <string name="admin1">الاقسام</string>
+    <string name="admin1Employee">الموظفين</string>
+    <string name="admin2"> </string>
+    <string name="add_employee">اضافه موظف</string>
+    <string name="add_admin_extr">اضافه مهمه جديدة</string>
+    <string name="add_employee_extr">المهام الاضافية</string>
+    <string name="employee">الملف الشخصى</string>
+    <string name="admin_employee">ملف الموظف</string>
+    <string name="employee_extr">المهام السابقة</string>
+    <string name="enter">دخول</string>
+    <string name="main1">فرع المهندسين</string>
+    <string name="main2">فرع المعادى</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="Employee">الموظف</string>
+    <string name="depart">الأدارة</string>
+    <string name="job">القسم</string>
+
+    <!-- employee-->
+    <string name="employee_data1">الأسم:</string>
+    <string name="employee_data2">الإدارة:</string>
+    <string name="employee_data3">القسم:</string>
+    <string name="employee_data4">المهام الأساسية</string>
+    <string name="button_miss_extr">المهام الإضافية</string>
+    <string name="confirm_miss">تم انهاء المهمة</string>
+    <!-- drawer menu-->
+    <string name="menu_main">الرئيسية</string>
+    <string name="contact_us">الاتصال بنا</string>
+    <string name="exit">الخروج</string>
+
+    <!-- admin 1 -->
+    <string name="button_admin"> الأعضاء </string>
+    <string name="finance">الماليـــــة</string>
+    <string name="engine">المـــهندسين</string>
+    <string name="marketing">التســـــويق</string>
+    <string name="secrtary">الســكرتاريه</string>
+    <string name="connect">العلاقات العامة</string>
+    <string name="repair">الصيانـــــــة</string>
+    <string name="shopping">المشـــــتريات</string>
+    <string name="electric">الكهــربــــاء</string>
+
+    <!-- admin employee in -->
+    <string name="mission"> المهام</string>
+    <!-- admin employee extr -->
+    <string name="add_mission">اضافة مهمة</string>
+    <string name="last_mission">المهام</string>
+    <string name="num_employee">عدد الموظفين</string>
+    <string name="status">حالة المهمة</string>
+    <string name="end_task"> الوقت المسموح به</string>
+    <string name="header">عنوان المهمة</string>
+    <string name="write_mission">المهمه الأولى : إضافة....................</string>
+    <string-array name="SP_choose_status">
+        <item>متوسطة</item>
+        <item>ضرورية</item>
+    </string-array>
+    <string name="attachment">إضافة ملف</string>
+    <!-- employee extr in-->
+    <string name="show_file">عرض الملف</string>
+    <string name="start_work">بدأالعمل</string>
+    <string name="required">متطلبات</string>
+    <!--  messages -->
+    <string name="logout">هل تريد تسجيل خروج ؟</string> <!--"Are you sure you want to Logout ?"-->
+    <string name="save">حفظ</string>
+    <string name="message_save">تم تسجيل الموظف</string>
+    <string name="alart_employee">هل ترغب فى الغاء تسجيل موظف جديد؟ </string><!-- Are you sure Discard Create Employee ? -->
+    <string name="sure">نعم</string>
+    <string name="refuse">لا</string>
+    <string name="ask_employee"> هل تريد حفظ بيانات موظف جديد ؟</string> <!-- Are you sure Save New Employee ? -->
+
+    <!-- add employee-->
+    <string name="name_employee">اسم الموظف</string>
+    <string name="user_employee">اسم المستخدم</string>
+    <string name="pass_employee">كلمة المرور</string>
+    <string name="depart_employee">الادارة </string>
+    <string name="section_employee">القسم</string>
+    <string name="main_task_employee">المهام الاساسية</string>
+    <string-array name="department">
+        <item>فرع المهندسين</item>
+        <item>فرع المعادى</item>
+    </string-array>
+    <string-array name="section">
+        <item>المالية</item>
+        <item>المهندسين</item>
+        <item>التسويق</item>
+        <item>السكرتارية</item>
+        <item>العلاقات العامة</item>
+        <item>الصيانة</item>
+        <item>المشتريات</item>
+        <item>الكهرباء</item>
+    </string-array>
+    <!-- help user-->
+    <string name="ask">مقدمة</string>
+    <string name="Privacy">سياسة الخصوصية</string>
+    <string name="loginn">تسجيل الدخول</string>
+    <string name="add_client">إضافة عميل</string>
+    <string name="search">البحث</string>
+    <string name="record_client">سجل العميل</string>
+    <string name="contect_us">التواصل و الدعم</string>
+
+    <string name="start">مرحبا بك فى برنامج إدارة المهام.\n
+        دقه.سهوله.امان\n
+بالاضافه الى سهوله الاستخدام ،يوفر لك هذا البرنامج:\n
+١. متابعة المهام الاساسية للموظفين لديك.\n
+٢.تسجيل المهام الاضافيه لكل موظف .\n
+٣.احتفاظك بقاعده البيانات بشكل شخصى.</string>
+
+    <string name="alart">يعمل تطبيق إداره المهام على تسجيل الاعضاء و وضع المهام الاساسية و إضافه المهام الاضافيه باستمرار .
+\nيمكنك متابعه جميع المهام الإضافيه التى تمت اضافتها على كل عضو وهل تم انتهاء المهمة او لا ؟؟؟ .\n
+يتم الاحتفاظ بالبيانات و معلومات التى تم إضافتها على الجهاز الخاص بك و لا يتيح البرنامج نقل البيانات خارج البرنامج .
+        \n
+    يمكن ربط الابلكيشن بالداتا بيس ليتم استخدامه بين المدير و الموظفين بشكل اوضح.</string>
+
+
+    <string name="client">يمكنك من خلال زر اضافه عميل جديد الى قائمه عملائك.\n
+بالضغط على زر إضافة عميل من ليست اعلى الشاشة ستظهر لك صفحه إضافه عميل : \n
+قم بإدخال اسم العميل - إدخال رقم الهاتف - ادخال القسم - و الإدارة - يمكن الحاق تفاصيل العمل للتمكن من الاطلاع عليها لاحقا.
+</string>
+    <string name="tab_login"> اسم المستخدم Admin و كلمه المرور 123 \n (ملحوظه كلمه المرور موحده لجميع الموظفين مع اختلاف اسم المستخدم بيتم تحديده عند تسجيل الموظف او العضو )يمكنك من خلالها استخدام البرنامج و تجربته بحريه تامه, نسعد بتواصلك معنا للحصول على النسخه خاصه بعملك.  </string>
+
+    <string name="tab_record_client">تظهر بروفيل كل عضو عند الضغط على زر المهام.\n
+        يمكنك الاطلاع على بيانات العميل و كل المهام الاساسية و الإضافية.\n
+    يمكن إضافه العديد من المهام الإضافية لكل عضو على انفراد.
+    </string>
+
+    <string name="tab_contect_us"> - تليفون 0100105935.\n
+    -البريد الالكترونى:\n
+    ayaosamaahmed.1993@gmail.com \n
+    نحن نتواجد ايضا على الواتس اب . نستمتع الى مقتراحاتكم.
+    </string>
+</resources>
