@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 26
@@ -17,6 +18,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main { assets.srcDirs = ['src/main/assets', 'src/main/assets/', 'src/main/assets/fonts'] }
+    }
 }
 
 dependencies {
@@ -30,8 +34,13 @@ dependencies {
     implementation 'com.android.volley:volley:1.1.1'
     //App font Library
     implementation 'me.anwarshahriar:calligrapher:1.0'
-
+    implementation 'com.google.firebase:firebase-database:15.0.1'
+    implementation 'com.google.firebase:firebase-firestore:17.1.0'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    implementation 'com.google.firebase:firebase-core:15.0.0'
+    implementation 'com.google.firebase:firebase-auth:16.0.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
 }
+apply plugin: 'com.google.gms.google-services'
